@@ -11,6 +11,7 @@ finish-args:
   - --filesystem=host:ro
   - --share=network
   - --share=ipc
+  - --socket=x11
   - --socket=fallback-x11
   - --socket=pulseaudio
   - --socket=wayland
@@ -35,7 +36,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/trzy/Supermodel.git
-        commit: e6b54686804cc349972d43e5960edae4c46b61ae
+        commit: 2af078727948454a767995b340b6ecdba683d521
       - type: file
         path: com.supermodel3.Supermodel.desktop
       - type: file
