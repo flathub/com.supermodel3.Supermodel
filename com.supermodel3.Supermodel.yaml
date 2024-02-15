@@ -35,7 +35,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/trzy/Supermodel.git
-        commit: 6f409539a7b1592050e574b24d66af800820bcc1
+        commit: e59ecea32d8ca20caf55662e698665f5b9142808
       - type: file
         path: com.supermodel3.Supermodel.desktop
       - type: file
