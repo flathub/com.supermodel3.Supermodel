@@ -11,9 +11,8 @@ finish-args:
   - --filesystem=host:ro
   - --share=network
   - --share=ipc
-  - --socket=fallback-x11
+  - --socket=x11
   - --socket=pulseaudio
-  - --socket=wayland
   - --allow=bluetooth
 modules:
   - shared-modules/glu/glu-9.json
@@ -21,16 +20,12 @@ modules:
   - name: supermodel
     buildsystem: simple
     build-commands:
-      - make
-          -f Makefiles/Makefile.UNIX
-          NET_BOARD=1
+      - make -f Makefiles/Makefile.UNIX NET_BOARD=1
       - install -Dm 0755 bin/supermodel ${FLATPAK_DEST}/bin/supermodel
       - install -Dm 0644 ${FLATPAK_ID}.desktop ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop
       - install -Dm 0644 ${FLATPAK_ID}.metainfo.xml ${FLATPAK_DEST}/share/metainfo/${FLATPAK_ID}.metainfo.xml
       - install -Dm 0644 supermodel128x128.png ${FLATPAK_DEST}/share/icons/hicolor/128x128/apps/${FLATPAK_ID}.png
-      - cp -r Assets ${FLATPAK_DEST}/bin/
-      - cp -r Config ${FLATPAK_DEST}/bin/
-      - cp -r Docs ${FLATPAK_DEST}/bin/
+      - cp -r Assets Config Docs ${FLATPAK_DEST}/bin/
     sources:
       - type: git
         url: https://github.com/trzy/Supermodel.git
