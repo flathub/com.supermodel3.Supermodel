@@ -1,6 +1,6 @@
 id: com.supermodel3.Supermodel
 runtime: org.freedesktop.Platform
-runtime-version: "23.08"
+runtime-version: "24.08"
 sdk: org.freedesktop.Sdk
 command: supermodel
 separate-locales: false
@@ -11,7 +11,6 @@ finish-args:
   - --filesystem=host:ro
   - --share=network
   - --share=ipc
-  - --socket=x11
   - --socket=fallback-x11
   - --socket=pulseaudio
   - --socket=wayland
@@ -35,7 +34,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/trzy/Supermodel.git
-        commit: a2645c944f57e8d9c245063d21f9bf612eab0a6b
+        commit: f9cb795d6abd7a18ba3f3d44b62018f0be15b1a6
       - type: file
         path: com.supermodel3.Supermodel.desktop
       - type: file
