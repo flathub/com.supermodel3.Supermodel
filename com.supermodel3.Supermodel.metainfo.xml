@@ -24,7 +24,7 @@
   <url type="homepage">https://www.supermodel3.com</url>
   <launchable type="desktop-id">com.supermodel3.Supermodel.desktop</launchable>
   <releases>
-    <release version="0.3a-WIP" date="2023-04-01"/>
+    <release version="0.3a-WIP" date="2025-09-06"/>
   </releases>
   <provides>
     <binary>supermodel</binary>
@@ -32,7 +32,16 @@
   <content_rating type="oars-1.1" />
   <screenshots>
     <screenshot type="default">
-        <image type="source" width="1024" height="723">http://www.supermodel3.com/Images/Dayto2PE_InYourFace_1024x723_Low.jpg</image>
+        <image type="source" width="720" height="480">https://github.com/trzy/Supermodel/blob/master/Docs/Images/Daytona2_1.gif</image>
+    </screenshot>
+    <screenshot>
+        <image type="source" width="720" height="480">https://github.com/trzy/Supermodel/blob/master/Docs/Images/LAMachin.gif</image>
+    </screenshot>
+    <screenshot>
+        <image type="source" width="720" height="480">https://github.com/trzy/Supermodel/blob/master/Docs/Images/StarWars.gif</image>
+    </screenshot>
+    <screenshot>
+        <image type="source" width="720" height="480">https://github.com/trzy/Supermodel/blob/master/Docs/Images/FVipers2.gif</image>
     </screenshot>
   </screenshots>
 </component>
