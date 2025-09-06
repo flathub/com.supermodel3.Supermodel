@@ -32,16 +32,16 @@
   <content_rating type="oars-1.1" />
   <screenshots>
     <screenshot type="default">
-        <image type="source" width="720" height="480">https://github.com/trzy/Supermodel/blob/master/Docs/Images/Daytona2_1.gif?raw=true</image>
+        <image type="source" width="720" height="480">https://raw.githubusercontent.com/trzy/Supermodel/master/Docs/Images/Daytona2_1.gif</image>
     </screenshot>
     <screenshot>
-        <image type="source" width="720" height="480">https://github.com/trzy/Supermodel/blob/master/Docs/Images/LAMachin.gif?raw=true</image>
+        <image type="source" width="720" height="480">https://raw.githubusercontent.com/trzy/Supermodel/master/Docs/Images/LAMachin.gif</image>
     </screenshot>
     <screenshot>
-        <image type="source" width="720" height="480">https://github.com/trzy/Supermodel/blob/master/Docs/Images/StarWars.gif?raw=true</image>
+        <image type="source" width="720" height="480">https://raw.githubusercontent.com/trzy/Supermodel/master/Docs/Images/StarWars.gif</image>
     </screenshot>
     <screenshot>
-        <image type="source" width="720" height="480">https://github.com/trzy/Supermodel/blob/master/Docs/Images/FVipers2.gif?raw=true</image>
+        <image type="source" width="720" height="480">https://raw.githubusercontent.com/trzy/Supermodel/master/Docs/Images/FVipers2.gif</image>
     </screenshot>
   </screenshots>
 </component>
