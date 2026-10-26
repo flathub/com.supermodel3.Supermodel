@@ -1,6 +1,6 @@
 id: com.supermodel3.Supermodel
 runtime: org.freedesktop.Platform
-runtime-version: "25.08"
+runtime-version: "26.08"
 sdk: org.freedesktop.Sdk
 command: supermodel
 separate-locales: false
@@ -34,7 +34,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/trzy/Supermodel.git
-        commit: 77d28eec84a5ededaa23bb31bc74db631cbe5530
+        commit: 14815455dc28fca2c8662fb1ed99d447ecf8f364
       - type: file
         path: com.supermodel3.Supermodel.desktop
       - type: file
